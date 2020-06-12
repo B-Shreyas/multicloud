@@ -1,3 +1,4 @@
+<body bgcolor = "aqua">
 Hello! Welcome to the Multi Hybrid Cloud !!!
 <br/>
 
