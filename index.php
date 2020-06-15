@@ -1,11 +1,11 @@
 <html>
 <head>
 <body bgcolor='aqua'>
-<h1>After completing the task i was like !</h1>
-
-<img src="https://mytaskbucketshreyas12.s3.ap-south-1.amazonaws.com/Shreyas.jpg" alt="Girl in a jacket" width="200" height="200">
+<h1>Welcome to Terraform !!!</h1>
 <pre>
 <?php
+print `lscpu`;
+print `free -m`;
 $cloudant_url = `head -n1 path.txt`;
 $img_path="https://".$cloudant_url."/Shreyas.jpeg";
 echo "<br>";
