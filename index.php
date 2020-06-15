@@ -1,15 +1,15 @@
-<body bgcolor = "aqua">
-Hello! Welcome to the Multi Hybrid Cloud !!!
-<img src = "https://terras3bucket.s3.ap-south-1.amazonaws.com/Shreyas.jpeg"    height="200" width="200">  
-  
-<br/>
 
+<html>
+<body bgcolor = "aqua">
+<h3>Hello! Welcome to the Multi Hybrid Cloud !!!</h3> 
+<br/>
 <pre>
 <?php
-
-print `free -m`;
-print `ifconfig`;
-
-
+   $cloudant_url=`head -n1 path.txt`;
+   $img_path="https://".$cloudant_url."/Shreyas.jpeg";
+   echo "<br>";
+   echo "<img src='${img_path}' width=100 height=100>";
 ?>
 </pre>
+  </body>
+</html>
