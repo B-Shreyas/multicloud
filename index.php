@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   font-family: "montserrat",sans-serif;
-  background: #FFFFFF;
+  background: #000000;
 }
 
 .middle{
