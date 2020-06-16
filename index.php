@@ -7,7 +7,7 @@
 print `lscpu`;
 print `free -m`;
 $cloudant_url = `head -n1 path.txt`;
-$img_path="https://".$cloudant_url."/images1/img_avatar2.jpeg";
+$img_path="https://".$cloudant_url."/img_avatar2.jpeg";
 echo "<br>";
 echo "<img src='${img_path}' width=300 height=250>";
 ?>
