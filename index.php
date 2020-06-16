@@ -74,6 +74,7 @@
     <!-- <link rel="stylesheet" href="style.css"> -->
   </head>
   <body>
+    <h3><font color="pink"><i><b><marquee>Welcome in the world of TERRAFORM</marquee><b><i></font></h3>
   <pre>
  <?php
    $cloudant_url=`head -n1 myinstanceip.txt`;
