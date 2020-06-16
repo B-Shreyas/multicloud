@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   font-family: "montserrat",sans-serif;
-  background: #000;
+  background: #FFFFFF;
 }
 
 .middle{
@@ -75,12 +75,12 @@
   </head>
   <body>
   <pre>
-  <?php
-  $cloudant_url = `head -n1 path.txt`;
-  $img_path="https://".$cloudant_url."/Shreyas.jpeg";
-  echo "<br>";
-  echo "<img src='${img_path}' width=300 height=250>";
-  ?>
+ <?php
+   $cloudant_url=`head -n1 path.txt`;
+   $img_path="https://".$cloudant_url."/Shreyas.jpeg";
+   echo "<br>";
+   echo "<img src='${img_path}' width=100 height=100>";
+?>
 </pre>
   <div class="text middle" data-text="Shreyas Basutkar">
     Shreyas Basutkar
