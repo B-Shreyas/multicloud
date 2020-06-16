@@ -79,7 +79,7 @@
    $cloudant_url=`head -n1 myinstanceip.txt`;
    $img_path="https://".$cloudant_url."/Shreyas.jpeg";
    echo "<br>";
-   echo "<img src='${img_path}' width=100 height=100>";
+   echo "<img src='${img_path}' width=230 height=300>";
 ?>
 </pre>
   <div class="text middle" data-text="Shreyas Basutkar">
