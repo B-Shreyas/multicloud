@@ -81,7 +81,7 @@
    $img_path="https://".$cloudant_url."/Shreyas.jpeg";
    echo "<br>";
    echo "<img src='${img_path}' width=290 height=330>";
-   <h3><font color="aqua"><i>All thanks to Vimal Sir<i></font></h3>
+   <h3><font color="aqua"><i>All thanks to Vimal Daga Sir<i></font></h3>
 ?>
 </pre>
   <div class="text middle" data-text="Shreyas Basutkar">
